@@ -1,0 +1,501 @@
+body {
+    background-image:url"Screenshot 2024-05-03 094159.png" ;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.now{
+    color:#088178;
+}
+p,.subfood1text span{
+    font-size: 16px;
+    color:#465b52;
+    margin:15px 0 20px 0;
+}
+header img{
+    margin:0px 20px;
+    box-shadow:0px 2px 5px white;
+    border:none ;
+    border-radius: 10px;
+    height: 70px;
+    transition:0.5s;
+
+}
+header ul li:hover,
+header img:hover
+    {
+    transform:translate(3px,-5px);
+    /* box-shadow:0px 5px 15px green; */
+}
+/* #logo{
+    width:fit-content;
+    height: fit-content;
+   font-family:Comic sans MS ;
+   
+   color:white;
+   align-content: center;
+   text-shadow: 1px 3px 1px black;
+   background-color: orange;
+   align-items: center;
+   padding-top:0px;
+   border-radius: 20px;
+   box-shadow: 0px 5px 15px orange;
+
+} */
+header{
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    padding-bottom:10px;
+    background-color:white;
+    box-shadow:0px 2px 8px rgb(241, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    left:0;
+}
+header ul li{
+    list-style: none;
+    margin:20px;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+
+}
+
+.main2{
+    display: flex; 
+    flex-direction: column;   
+    background-image: url("hotel.jpg");
+    background-repeat:no-repeat ; 
+    background-size:cover;
+    width:100%;
+    transition: 0.3s;
+    height:40rem ;
+    border:solid rgb(186, 190, 178) 2px;
+}
+
+header ul{ 
+    padding-bottom:50px ;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+a p:hover{
+    color:#088178;
+    text-decoration: none;
+    cursor:pointer;
+    
+ }
+a:hover{
+    color:#088178;
+    text-decoration: none;
+    cursor:pointer;
+    
+ }
+
+a:active{
+    color:rgb(128, 0, 0);
+    transform:scale(1);
+}
+
+footer{
+    margin-top:20px;
+    border:1px none;
+    display: flex;
+    padding-top:50px;
+    padding-left: 20px;
+    padding-right:35px;
+    border-radius:12px;
+    flex-direction: column;
+    min-height: 45vh;
+    background-color:rgb(252, 248, 248);
+}
+i{
+    color:#465b52;
+}
+footer .first{
+    
+    display:flex;
+    justify-content: space-between;
+    min-height:45vh;
+
+    
+}
+footer .second{
+    text-align: center;
+justify-content: center;
+width:100%;
+}
+
+footer ul li{
+    list-style: none;
+    margin:0px;
+}
+/* food */
+.text{
+    width:15%;
+}
+.foodfath{
+min-width: 70vh;
+min-height: 40vh;
+display: none;
+width:40%;
+flex-direction: column;
+justify-content: center;
+margin-left: 10px;
+margin-top:0vh;
+font-size:70px;
+border-radius:30px;
+transition: 1s ;
+}
+#fathmain{
+background-color: #ebf3ef;
+display:flex;
+justify-content: space-between;
+flex-wrap:wrap;
+min-height: 104vh; 
+}
+#fathmain .text{
+    width:40vh;
+}
+#fathmain h1{
+    margin-left: 40px;
+    margin-top:25vh;
+    margin-bottom:5px;
+    font-size:70px
+
+}
+#fathmain p{
+    margin-left:100px;
+}
+.foodmain2 img{
+    border-radius:50px;
+}
+.foodmain2{
+    background-repeat:no-repeat ; 
+    /* background-size:cover; */
+    text-align: center;
+    width:100%;
+    min-height:40vh ;
+
+}
+.foodmnu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:60px ;
+    width: 25%;
+}
+.foodmnu .par{
+padding-top: 12px;
+display:flex;
+justify-content: space-between;
+background-color:white ;
+border:1px none black;
+margin-bottom:20px;
+margin-left: 60px;
+width:55vh ;
+height:15vh;
+border-top-left-radius: 7.5vh;
+border-bottom-left-radius: 7.5vh;
+}
+.subfood1text h3{
+    font-weight: 500;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:3px;
+}
+
+.subfood1text{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 16px;
+
+}
+.foodmnu .par img,#fnow img{
+    width:14vh;
+    height: 14vh;
+    border-radius: 7.5vh;
+}
+ button
+{
+    margin-top:12px ;
+    width:20vh;
+    height: 6vh;
+    border-radius:4px;
+    color: white;
+    border-style: none;
+    background-color: #088178;
+    transition: 0.6s;
+
+}
+.foodfath{
+    display: flex;
+}
+.foodfath .subfood{
+    display: flex;
+    justify-content:space-between;
+}
+.foodfath h6{
+    margin-left:20px;
+    font-size: 26px;
+    font-family:fantasy;
+}
+.foodmnutextmnu{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foodmnutext p{
+    font-size: 12px;
+
+}
+.foodmnutext{
+    font-size: 2px;
+    margin-left: -70px;
+    text-align: CENTER;
+}
+.subi{
+    width:170px;
+    height: 130px;
+    border-radius:50px;
+}
+.foodmnu #fnow{
+padding-top: 15px;
+padding-left: 15px;
+display:flex;
+justify-content: space-between;
+background-color:orange ;
+border:1px none black;
+margin-bottom:20px;
+width:65vh ;
+height:18vh;
+border-top-left-radius: 9vh;
+border-bottom-left-radius: 9vh;
+}
+.parchef .subfood1text{
+    text-align:start;
+}
+.parchef{
+    background-color: rgb(61, 47, 47);
+    display: flex;
+    justify-content: space-between; 
+}
+.chef{
+    background-color: rgb(61, 47, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tchef img{
+    width:45vh;
+    height:50vh;
+    border-radius: 20px;
+}
+.tchef .chefc{
+    background-color: goldenrod;
+
+}
+.tchef .star .fa-star{
+    color: gold;
+}
+.tchef{
+    
+    margin:40px;
+    display: flex;
+    box-shadow: 5px 15px 15px rgb(255, 128, 10,0.5);
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    width:55vh;
+    MIN-height:70vh;
+    border-radius: 4vh;
+    background-color: rgb(250, 249, 249);
+}
+.tchef:hover{
+    box-shadow: 5px 15px 15px rgb(255, 128, 10);
+}
+.chefheader{
+    background-image: url("banner2.jpg");
+    height:30vh;
+}
+/* rooom */
+.mainroom{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+.room img{
+    width:70vh ;
+    height: 50vh;
+    border-radius:3px;
+}
+.room .textsec{
+    margin-top:5px;
+    margin-left:40px;
+}
+.room{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+.room p{
+    font-size: 16px;
+    color:#465b52;
+    margin: 6px;
+}
+.form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.form input{
+    margin-top: 12px;
+    width: 40px;
+}
+.form button{
+    margin-top:12px ;
+    width:25vh;
+    height: 7vh;
+    border-radius:4px;
+    color: white;
+    border-style: none;
+    background-color: #088178;
+}
+.roombanner{
+    display: flex;
+    background-image: url("banner/bannerroom.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}   
+.mainText{
+    display: flex;
+    height: 2rem;
+    font-size: small;
+    background-color: black;
+    flex-direction: column;
+    align-items:end;
+   
+} 
+.span , .span2{
+    color:orange;
+    margin-right: 0.8rem; 
+    font-family: monospace;
+    margin-top: 0.6rem;
+    cursor: pointer;
+}
+.span2::after{
+    content: " ";
+    background-color:#088178;
+    position: absolute;
+    height:23px;
+    width: 10%;
+    border-radius: 12px;
+    transition: 0.4s;
+    opacity: 0.9;
+    left:0px;
+    bottom:3.5rem;
+}
+.span2:hover::after{
+    opacity: 0.8;
+    width: 50%;
+}
+.maintext2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    opacity:90%;
+    margin-top:30%;
+   margin-left:2rem ;
+   font-size:5rem;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.longtext{
+    margin-top: 0.7rem;
+    margin-left: 2rem;
+    opacity:90%;
+    color: white;;
+    font-size: 1rem;
+    font-weight:30;
+    width: 60%;
+}
+.forfood , .forroom ,.forus,.forchef
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2rem;
+    margin-left:1rem ;
+    border-radius:5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("foodbanner.jpg");
+    width: 48%;
+    height:40em;
+    transition: 0.6s;
+}
+.forfood:hover , .forroom:hover ,.forus:hover,.forchef:hover{
+    transform: scale(1.02);
+    box-shadow: green 2px 2px 2px 2px;
+}
+.makeItLarge{
+    margin-left: 8.7rem;
+   opacity: 98%;
+    margin-top:10rem;
+    font-size:2.6rem;
+}
+.forfoodt{
+ margin-left: -0.5rem;
+ margin-top: 25rem; 
+}
+.foodBannerButton{
+    z-index: -100;
+    opacity: 70%;
+    width: 17rem;
+    height:4rem;
+    font-size:1.5rem;
+    border-radius: 2rem;
+}
+.foodBannerButton:hover{
+    opacity: 100%;
+}
+.foodBannerButton:active{
+    transform: scale(0.7);
+}
+
+.forroom{
+ background-image:url("roombanner.jpg") ;
+}
+.forchef{
+    background-image:url("chefbanner.jpg") ;
+}
+.forus{
+    background-image:url("usbanner.jpg") ;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.lr{
+    font-size: 1.002rem;
+    width: 70%;
+}
